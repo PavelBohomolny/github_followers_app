@@ -14,6 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if #available(iOS 15, *) {
+            let appearance = UITabBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            UITabBar.appearance().standardAppearance = appearance
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+            
+            let appearanceNavigationBar = UINavigationBarAppearance()
+            appearanceNavigationBar.configureWithOpaqueBackground()
+            UINavigationBar.appearance().standardAppearance = appearanceNavigationBar
+            UINavigationBar.appearance().scrollEdgeAppearance = appearanceNavigationBar
+        }
+        
         return true
     }
 
