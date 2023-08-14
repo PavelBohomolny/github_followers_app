@@ -62,8 +62,8 @@
 		863521292A8A5F290014C44E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8635212A2A8A5F370014C44E /* User.swift */,
 				8635212C2A8A5F500014C44E /* Follower.swift */,
+				8635212A2A8A5F370014C44E /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -92,9 +92,9 @@
 		863521302A8A608C0014C44E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				861613BB2A7A5D6E00CA1806 /* FavoritesListVC.swift */,
-				865AC26C2A7EAF54003A0DDC /* FollowerListVC.swift */,
 				8628FD842A7A3C7800E50CA1 /* SearchVC.swift */,
+				865AC26C2A7EAF54003A0DDC /* FollowerListVC.swift */,
+				861613BB2A7A5D6E00CA1806 /* FavoritesListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				863521292A8A5F290014C44E /* Model */,
-				8635212F2A8A602E0014C44E /* Custom Views */,
 				8635212E2A8A5FF70014C44E /* Extension */,
+				8635212F2A8A602E0014C44E /* Custom Views */,
 				863521302A8A608C0014C44E /* Screens */,
 				863521312A8A60BB0014C44E /* Support */,
 				FA0C7FEE2A799D70008AC922 /* SceneDelegate.swift */,
