@@ -9,7 +9,9 @@ import UIKit
 
 class UserInfoVC: UIViewController {
     
-    let headerView  = UIView()
+    let headerView = UIView()
+    let itemViewOne = UIView()
+    let itemViewTwo = UIView()
     
     var username: String!
 
