@@ -8,7 +8,6 @@
 import UIKit
 
 class GFBodyLabel: UILabel {
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -35,5 +34,4 @@ class GFBodyLabel: UILabel {
         lineBreakMode = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }
